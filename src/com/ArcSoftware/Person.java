@@ -1,5 +1,8 @@
 package com.ArcSoftware;
 
+import java.util.Collection;
+import java.util.Collections;
+
 /**
  * Created by Jake on 4/11/17.
  */
@@ -19,6 +22,7 @@ public class Person implements Comparable{
         this.email = email;
         this.country = country;
         this.ip = ip;
+
     }
 
     @Override
